@@ -10,8 +10,8 @@ int main()
 	cin>>y;
 if(x>y)
 {
-	sonuc=x-y;
-	cout<<"change= "<<sonuc<<endl;
+	result=x-y;
+	cout<<"change= "<<result<<endl;
 }
 else
 {
