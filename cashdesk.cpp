@@ -4,9 +4,9 @@ int main()
 {
 	int x, y;
 	int sonuc;
-	cout<<"verilen para miktari"<<endl;
+	cout<<"given money"<<endl;
 	cin>>x;
-	cout<<"vermen gereken para miktari"<<endl;
+	cout<<"the money which should be given"<<endl;
 	cin>>y;
 if(x>y)
 {
@@ -15,7 +15,7 @@ if(x>y)
 }
 else
 {
-	cout<<"it is not enough.You should give "<<y-x<<" tl more"<<endl;
+	cout<<"it is not enough.You should give "<<y-x<<" euro more"<<endl;
 }
 
 }
